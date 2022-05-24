@@ -74,9 +74,9 @@ export class HomePage {
 
   addInfoWindowToMarker(marker){
     let infoWindowContent = '<div id="content">' + 
-                              '<h2 id="firstHeading" class"firstHeading">' + marker.title + '</h2>' + 
-                                '<p>Latitude: ' + marker.latitude + '</p>' + 
-                                '<p>Longitude: ' + marker.longitude + '</p>' + '</div>';
+                              '<h2 id="firstHeading" style="color: black;" class"firstHeading">' + marker.title + '</h2>' + 
+                                '<p style="color: black;">Latitude: ' + marker.latitude + '</p>' + 
+                                '<p style="color: black;">Longitude: ' + marker.longitude + '</p>' + '</div>';
 
     let infoWindow = new google.maps.InfoWindow({
       content: infoWindowContent
