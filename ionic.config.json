@@ -1,0 +1,7 @@
+{
+  "name": "IJoozLocate",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
